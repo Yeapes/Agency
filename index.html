@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <title>Travel Agency</title>
+		<meta charset="UTF-8">
+
+        <!-- CSS Start-->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
+        <!--datepicker.css-->
+        <link rel="stylesheet"  href="assets/css/datepicker.css" >
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+        <!-- Script -->
+        <script src="assets/js/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- ********* Header Start ********** -->
+        <section id="header"> 
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Tagline Goes Here</p>
+                        </div>
+                        <div class="col-lg-6 mr0">
+                            <ul class="social-network social-circle text-right">
+                                <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>				
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a class="navbar-brand">Travel</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <nav class="navbar navbar-expand-lg navbar-dark">  
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button> 
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav float-left"> 
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Business</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Bloging</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Contact</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Location</a>
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- ********* Header End ********** -->
+
+        <!-- Slider Start -->
+        <section id="slider">
+            <div class="bd-example wow fadeInUp" data-wow-delay="1s">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/slideimg1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>7-Day's Tour</p>
+                                <h2 class="sliderTitle">Amazing Cox'sBazar </h2>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/slideimg2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>7-Day's Tour</p>
+                                <h2 class="sliderTitle">Amazing Cox'sBazar </h2>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/slideimg1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>7-Day's Tour</p>
+                                <h2 class="sliderTitle">Amazing Cox'sBazar </h2>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> 
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!-- Slider End --> 
+
+        <!--travel-box start-->
+        <section  class="travel-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center fname ">
+                            <h2>FIND OUR SERVICE</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="single-travel-boxes">
+                            <div id="desc-tabs" class="desc-tabs">
+
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation">
+                                        <a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">
+                                            <i class="fa fa-plane"></i>
+                                            flights
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">
+                                            <i class="fa fa-building"></i>
+                                            hotels
+                                        </a>
+                                    </li>
+                                    <li role="presentation" class="active">
+                                        <a href="#tours" aria-controls="tours" role="tab" data-toggle="tab">
+                                            <i class="fa fa-tree"></i>
+                                            tours
+                                        </a>
+                                    </li> 
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+
+                                    <div role="tabpanel" class="tab-pane active fade in" id="tours">
+                                        <div class="tab-para">
+
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-4 col-sm-12">
+                                                    <div class="single-tab-select-box">
+
+                                                        <h2>destination</h2>
+
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">enter your destination country</option><!-- /.option-->
+
+                                                                <option value="turkey">turkey</option><!-- /.option-->
+
+                                                                <option value="russia">russia</option><!-- /.option-->
+                                                                <option value="egept">egypt</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">enter your destination location</option><!-- /.option-->
+
+                                                                <option value="istambul">istambul</option><!-- /.option-->
+
+                                                                <option value="mosko">mosko</option><!-- /.option-->
+                                                                <option value="cairo">cairo</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>check in</h2>
+                                                        <div class="travel-check-icon">
+                                                            <form action="#">
+                                                                <input type="text" name="check_in" class="form-control" data-toggle="datepicker" placeholder="12 -01 - 2017 ">
+                                                            </form>
+                                                        </div><!-- /.travel-check-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>check out</h2>
+                                                        <div class="travel-check-icon">
+                                                            <form action="#">
+                                                                <input type="text" name="check_out" class="form-control"  data-toggle="datepicker" placeholder="22 -01 - 2017 ">
+                                                            </form>
+                                                        </div><!-- /.travel-check-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-1 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>duration</h2>
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">5</option><!-- /.option-->
+
+                                                                <option value="10">10</option><!-- /.option-->
+
+                                                                <option value="15">15</option><!-- /.option-->
+                                                                <option value="20">20</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-1 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>members</h2>
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">1</option><!-- /.option-->
+
+                                                                <option value="2">2</option><!-- /.option-->
+
+                                                                <option value="4">4</option><!-- /.option-->
+                                                                <option value="8">8</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                            </div><!--/.row-->
+
+                                            <div class="row"> 
+                                                <div class="clo-sm-7">
+                                                    <div class="about-btn travel-mrt-0 pull-right">
+                                                        <button  class="about-view travel-btn">
+                                                            search	
+                                                        </button><!--/.travel-btn-->
+                                                    </div><!--/.about-btn-->
+                                                </div><!--/.col-->
+
+                                            </div><!--/.row-->
+
+                                        </div><!--/.tab-para-->
+
+                                    </div><!--/.tabpannel-->
+
+                                    <div role="tabpanel" class="tab-pane fade in" id="hotels">
+                                        <div class="tab-para">
+
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-4 col-sm-12">
+                                                    <div class="single-tab-select-box">
+
+                                                        <h2>destination</h2>
+
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">enter your destination country</option><!-- /.option-->
+
+                                                                <option value="turkey">turkey</option><!-- /.option-->
+
+                                                                <option value="russia">russia</option><!-- /.option-->
+                                                                <option value="egept">egypt</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">enter your destination location</option><!-- /.option-->
+
+                                                                <option value="istambul">istambul</option><!-- /.option-->
+
+                                                                <option value="mosko">mosko</option><!-- /.option-->
+                                                                <option value="cairo">cairo</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>check in</h2>
+                                                        <div class="travel-check-icon">
+                                                            <form action="#">
+                                                                <input type="text" name="check_in" class="form-control" data-toggle="datepicker" placeholder="12 -01 - 2017 ">
+                                                            </form>
+                                                        </div><!-- /.travel-check-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>check out</h2>
+                                                        <div class="travel-check-icon">
+                                                            <form action="#">
+                                                                <input type="text" name="check_out" class="form-control"  data-toggle="datepicker" placeholder="22 -01 - 2017 ">
+                                                            </form>
+                                                        </div><!-- /.travel-check-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-1 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>duration</h2>
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">5</option><!-- /.option-->
+
+                                                                <option value="10">10</option><!-- /.option-->
+
+                                                                <option value="15">15</option><!-- /.option-->
+                                                                <option value="20">20</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-1 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>members</h2>
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">1</option><!-- /.option-->
+
+                                                                <option value="2">2</option><!-- /.option-->
+
+                                                                <option value="4">4</option><!-- /.option-->
+                                                                <option value="8">8</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                            </div><!--/.row-->
+
+                                            <div class="row">
+                                                <div class="col-sm-5"></div><!--/.col-->
+                                                <div class="clo-sm-7">
+                                                    <div class="about-btn travel-mrt-0 pull-right">
+                                                        <button  class="about-view travel-btn">
+                                                            search	
+                                                        </button><!--/.travel-btn-->
+                                                    </div><!--/.about-btn-->
+                                                </div><!--/.col-->
+
+                                            </div><!--/.row-->
+
+                                        </div><!--/.tab-para-->
+
+                                    </div><!--/.tabpannel-->
+
+                                    <div role="tabpanel" class="tab-pane fade in" id="flights">
+                                        <div class="tab-para"> 
+                                            <div class="row">
+                                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                                    <div class="single-tab-select-box">
+
+                                                        <h2>Flying from</h2>
+
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">City Or Airport</option><!-- /.option-->
+
+                                                                <option value="turkey">turkey</option><!-- /.option-->
+
+                                                                <option value="russia">russia</option><!-- /.option-->
+                                                                <option value="egept">egypt</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+                                                <div class="col-lg-2 col-md-4 col-sm-12">
+                                                    <div class="single-tab-select-box">
+
+                                                        <h2>to</h2>
+
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">City Or Airport</option><!-- /.option-->
+
+                                                                <option value="istambul">istambul</option><!-- /.option-->
+
+                                                                <option value="mosko">mosko</option><!-- /.option-->
+                                                                <option value="cairo">cairo</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col--> 
+
+                                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>Departing</h2>
+                                                        <div class="travel-check-icon">
+                                                            <form action="#">
+                                                                <input type="text" name="departure" class="form-control" data-toggle="datepicker"
+                                                                       placeholder="12 -01 - 2017 ">
+                                                            </form>
+                                                        </div><!-- /.travel-check-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>Returning</h2>
+                                                        <div class="travel-check-icon">
+                                                            <form action="#">
+                                                                <input type="text" name="return" class="form-control" data-toggle="datepicker" placeholder="22 -01 - 2017 ">
+                                                            </form>
+                                                        </div><!-- /.travel-check-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-1 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>adults</h2>
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">5</option><!-- /.option-->
+
+                                                                <option value="10">10</option><!-- /.option-->
+
+                                                                <option value="15">15</option><!-- /.option-->
+                                                                <option value="20">20</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                                <div class="col-lg-2 col-md-1 col-sm-4">
+                                                    <div class="single-tab-select-box">
+                                                        <h2>childs</h2>
+                                                        <div class="travel-select-icon">
+                                                            <select class="form-control ">
+
+                                                                <option value="default">1</option><!-- /.option-->
+
+                                                                <option value="2">2</option><!-- /.option-->
+
+                                                                <option value="4">4</option><!-- /.option-->
+                                                                <option value="8">8</option><!-- /.option-->
+
+                                                            </select><!-- /.select-->
+                                                        </div><!-- /.travel-select-icon -->
+                                                    </div><!--/.single-tab-select-box-->
+                                                </div><!--/.col-->
+
+                                            </div><!--/.row--> 
+                                            <div class="row"> 
+                                                <div class="clo-sm-5">
+                                                    <div class="about-btn pull-right">
+                                                        <button  class="about-view travel-btn">
+                                                            search	
+                                                        </button><!--/.travel-btn-->
+                                                    </div><!--/.about-btn-->
+                                                </div><!--/.col-->
+
+                                            </div><!--/.row--> 
+                                        </div> 
+                                    </div><!--/.tabpannel--> 
+                                </div><!--/.tab content-->
+                            </div><!--/.desc-tabs-->
+                        </div><!--/.single-travel-box-->
+                    </div><!--/.col-->
+                </div><!--/.row-->
+            </div><!--/.container-->
+
+        </section><!--/.travel-box-->
+        <!--travel-box end-->
+
+        <!--Why we are best Start-->
+        <section id="why">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="why1">
+                            <h2>WHY WE ARE THE BEST</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br> 
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="why-content1">
+                            <img src="assets/img/rsz_wy1.png" alt="Content One">
+                            <h2>Amazing Travel</h2>
+                            <p>Lorem psum, or ipsum
+                                Lorem psum,or ipsum <br>
+                                is dummy text</p>
+                            <a href="#">Read More <i class="fa fa-caret-right"></i> </a>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="why-content2">
+                            <img src="assets/img/rsz_wy2.png" alt="Content One">
+                            <h2>Discover Flights</h2>
+                            <p>Lorem psum, or ipsum
+                                Lorem psum,or ipsum <br>
+                                is dummy text</p>
+                            <a href="#">Read More <i class="fa fa-caret-right"></i> </a>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="why-content3">
+                            <img src="assets/img/rsz_wy3.png" alt="Content One">
+                            <h2>Book Your Trip</h2>
+                            <p>Lorem psum, or ipsum
+                                Lorem psum,or ipsum <br>
+                                is dummy text</p>
+                            <a href="#">Read More <i class="fa fa-caret-right"></i> </a>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="why-content4">
+                            <img src="assets/img/rsz_wy4.png" alt="Content One">
+                            <h2>Nice Support</h2>
+                            <p>Lorem psum, or ipsum
+                                Lorem psum,or ipsum <br>
+                                is dummy text</p>
+                            <a href="#">Read More <i class="fa fa-caret-right"></i></a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Why we are best End-->
+
+        <!--Vacation Pack Start-->
+        <section id="vacation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="vacation-content">
+                            <h2><span>Execelent</span> Vacation <span>Packages</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                            <h3>$159.00 person</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="vacation-btn">
+                            <div class="divider"></div>
+                            <button type="button">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Vacation Pack End-->
+
+        <!--Happy Customer Start-->
+        <section id="customer"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-8">
+                        <div class="customer-heading">
+                            <h2> <span>HAPPY</span> CUSTOMERS</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, set amet.</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row"> 
+                    <div class="col-lg-4">
+                        <div class="customer-image"> 
+                            <img src="assets/img/customer.png" alt="Customer Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="divider"></div>
+                        <div class="customer-content">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                                sed diam nonummy nibh oui- sod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit dolore magna aliquam erat voutpat.
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit..</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euisod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                        </div>
+                        <div class="prog-text">
+                            <p>
+                                Flights
+                                <span>94%</span>
+                            </p>
+                        </div>
+                        <div class="progress"> 
+
+                            <div class="progress-bar bg-progress wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="prog-text">
+                            <p>
+                                Hotels
+                                <span>87%</span>
+                            </p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-progress wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s" role="progressbar" style="width: 87%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="prog-text">
+                            <p>
+                                Cars
+                                <span>70%</span>
+                            </p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-progress wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div> 
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <!--Happy Customer End-->
+
+        <!--Popular Start-->
+        <section id="popular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-10">
+                        <div class="popular1">
+                            <h2>POPULAR CRUISES</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br> 
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="popular-content1">
+                            <img src="assets/img/rsz_popular1.jpg" alt="Content One">
+                            <div class="popular-content1-text">
+                                <h2>Sylhet <span>7 Night Tour</span></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer elit, sed diam nonummy nibh oui</p>
+                                <p>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </p>
+                                <button type="button">See All</button>
+                            </div> 
+                        </div> 
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="popular-content2">
+                            <img src="assets/img/rsz_popular2.jpg" alt="Content One">
+                            <div class="popular-content1-text">
+                                <h2>Sylhet <span>7 Night Tour</span></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer elit, sed diam nonummy nibh oui</p>
+                                <p>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </p>
+                                <button type="button">See All</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="popular-content3">
+                            <img src="assets/img/rsz_popular3.jpg" alt="Content One">
+                            <div class="popular-content1-text">
+                                <h2>Sylhet <span>7 Night Tour</span></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer elit, sed diam nonummy nibh oui</p>
+                                <p>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </p>
+                                <button type="button">See All</button>
+                            </div> 
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!--Popular End-->
+
+        <!--Airlines Start-->
+        <section id="airlines">
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="assets/img/airline1.png" alt="Airlines Logo">
+                    </div> 
+                    <div class="col-lg-3">
+                        <img src="assets/img/airline2.png" alt="Airlines Logo">
+                    </div> 
+                    <div class="col-lg-3">
+                        <img src="assets/img/airline3.png" alt="Airlines Logo">
+                    </div> 
+                    <div class="col-lg-3">
+                        <img src="assets/img/airline4.png" alt="Airlines Logo">
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!--Airlines End-->
+        <!--FOOTER SECTION START-->
+        <section id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="footer-content1">
+                                <a><img src="assets/img/blackLogo.png" alt=""></a>
+                                <p>Nam liber tempor cum soluta nobis option congue nihil imperdiet doming id quod mazim. 
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-content2">
+                                <h2>Travel Specialists</h2>
+                                <ul>
+                                    <li><a href="#">First Class Flight</a></li>
+                                    <li><a href="#">Accesible Travel</a></li>
+                                    <li><a href="#">Amazinig Crueises</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-content3">
+                                <h2>Out Twitter</h2>
+                                <p> <span>@Nam</span> liber tempor cum soluta nobis option congue nihil imperdiet doming id quod mazim. Lorem ipsum
+                                    dolor sit amet
+                                    <span class="p1">6 Minutes Ago</span>
+                                </p>
+                                
+                                <p> <span>@dolor</span> sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                                    <span class="p2">3 Days Ago</span>
+                                </p> 
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-content4">
+                                <h2>Newsletter</h2>
+                                <p>Nam liber tempor cum soluta nobis option congue.</p>
+                                <form>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="First name">
+                                        </div> 
+                                    </div>
+                                </form>
+                                <button type="button">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="copyright">
+                                <a href="#">CopyRight</a> <span>|</span>
+                                <a href="#">Privacy Policy</a> <span>|</span>
+                                <a href="#">About US</a> <span>|</span>
+                            </div>
+                        </div> 
+                        <div class="col-lg-6">
+                            <div class="copyright text-right">
+                                <a href="#">Developed By</a> <span>|</span>
+                                <a href="#">Your Company</a> <span>|</span>
+                                <a href="#">About US</a> <span>|</span>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--FOOTER SECTION END-->
+
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/fontawesome.min.js"></script>
+        <script src="assets/js/datepicker.js"></script>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

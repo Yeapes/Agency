@@ -1,0 +1,682 @@
+/*Header Css Start*/
+#header{
+    background: #fff;
+}
+.divider{
+    margin-bottom: 80px;
+}
+.navigation{
+    background: #265077;
+}
+.navbar{
+    padding: 20px;
+}
+.navbar-brand {
+    color: #fff !important;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 24px;
+}
+.navigation ul.navbar-nav > li > a{
+    font-family: 'Montserrat', 'Sans-serif';
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    color: #fff!important;
+}
+.navigation ul.navbar-nav > li a:hover{
+    color: #43ff85 !important;
+    /*border-bottom: 2px solid #43ff85;*/
+    transition-delay: 1s;
+    transition: .5s;
+} 
+/* Topbar social icons */
+.topbar{
+    width: 100%;
+    display: block;
+    background: #2d5f5d;
+}
+.topbar p{
+    font-family: 'Raleway';
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+
+}
+ul.social-network {
+    list-style: none;
+    display: block;
+    margin: 10px 0px;
+    padding: 0;
+
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* Topbar social icons */
+.social-network a.icoRss {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter {
+    background-color:#33ccff;
+}
+.social-network a.icoGoogle {
+    background-color:#BD3518;
+}
+.social-network a.icoVimeo {
+    background-color:#0590B8;
+}
+.social-network a.icoLinkedin {
+    background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 40px;
+    height: 40px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:40px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.mr0{
+    margin-right: 0px;
+}
+/*Topbar section end*/  
+
+/*Header Css End*/
+/* Slider css start */
+.carousel-caption{
+    top: 30%;
+    text-align: left;
+    left: 8%;
+}
+.carousel-caption p{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.carousel-caption h2{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 45px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+
+}
+.carousel-indicators .active{
+    background-color: #3ee282;
+    border-radius: 100%;
+}
+
+/* Slider css End */
+
+/*======Travel Box Start==== */
+#travel-box{
+    background: #fff;
+}
+.fname{
+    margin: 100px 0px;
+}
+.fname h2{
+    font-family: 'Raleway','Sans-Serif';
+    font-size: 42px;
+    font-weight: 600;
+    color: #464646;
+    text-transform: uppercase;
+}
+.single-travel-boxes { 
+    background: #fff;
+}
+.tab-para p {
+    font-size: 24px;
+}
+/* .desc-tabs */
+.desc-tabs {
+    border: transparent;
+    /*    box-shadow: 0 10px 20px rgba(0,0,0,.1);*/
+}
+.desc-tabs .nav-tabs { 
+    border-right: 1px solid #fff;
+}
+
+.desc-tabs .nav-tabs>li.active>a{
+    color: #fff;
+    background: #005952;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
+    transition: .5s;
+}
+.desc-tabs .nav-tabs>li.active>a:focus, 
+.desc-tabs .nav-tabs>li.active>a:hover {
+    color: #565a5c;
+    text-decoration: none;
+}
+.desc-tabs .nav-tabs>li>a{
+    color: #fff;
+    background: #005952;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    padding: 17px 40px 17px 46px;
+    border: 0;
+    -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
+    transition: .5s;
+}
+
+.single-travel-boxes .nav>li>a:hover {
+    color: #2d5f5d;
+    background: #fafafa;
+    border: 0;
+    text-decoration: none;
+}
+.desc-tabs .nav-tabs>li>a>i{
+    padding-right: 6px;
+}
+/* .desc-tabs */
+
+
+
+/*===ab-select-box===*/
+.tab-para{
+    padding: 43px 42px 24px;
+    background-color: #fafafa;
+}
+.single-tab-select-box h2{
+    color: #565a5c;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+.travel-select-icon{
+    position:relative;
+}
+.travel-select-icon:after{
+    position: absolute;
+    content: "\f107";
+    right: 0px;
+    top: 0;
+    font-size: 18px;
+    color: #aaa;
+    background: #f9f9f9;
+    font-family: "fontAwesome"; 
+    border:1px solid #d7d7d7;
+    border-bottom: transparent;
+    padding: 10px;
+}
+
+.travel-check-icon{
+    position: relative;
+}
+.travel-check-icon:after{
+    position: absolute;
+    content: "\f073";
+    right: 0px;
+    top: 0;
+    font-size: 18px;
+    color: #aaa;
+    background: #f9f9f9;
+    font-family: "fontAwesome";
+    pointer-events: none;
+    border:1px solid #d7d7d7;
+    border-bottom: transparent;
+    padding: 10px 8px;
+}/*travel-select-icon*/
+
+.travel-select-icon  select,.travel-check-icon  input {
+    color:#c2c2c2;
+    font-size:13px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    height: 48px;
+}/*select*/
+
+.travel-select-icon .form-control,.travel-check-icon .form-control{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -o-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0!important;
+    box-shadow:none;
+    border:1px solid #d7d7d7;
+    border-radius: 0px;
+    margin-bottom: 20px;
+}/*.travel-select-icon .form-control*/
+
+/* filter */
+.travel-budget {
+    margin-top: 38px;
+}
+.travel-budget h3{
+    color: #565a5c;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+ 
+ 
+.price_slider_amount > input[type="text"] {
+    font-weight: 500;
+    font-size: 14px;
+    color: #aaa;
+    letter-spacing: 5.5px;
+    height: 40px;
+    text-align: center;
+    width: 280px;
+    border: none !important;;
+    font-family: 'Poppins', sans-serif;
+}
+.price_slider_amount label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #aaa;
+    font-family: 'Poppins', sans-serif;
+}
+.price_slider_amount > input[type="text"]:focus {outline: 0}
+.price_slider_amount > input[type="submit"] {outline: 0;}
+.price_slider_amount {letter-spacing: 2px;}
+.price_slider_amount > input[type="submit"] {
+    font-weight: 500;
+    font-size: 14px;
+    color: #aaa;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .travel-btn */
+.about-view.travel-btn{
+    width: 180px;
+    margin-right: 15px;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    background-color: #2d5f5d;
+    color: #fff;
+}
+/*======Travel Box End==== */
+
+/*why we are best start*/
+#why{
+    background: #005952;
+    margin-top: 100px;
+    padding: 90px 0px;
+}
+.why1{
+    padding-bottom: 90px;
+}
+.why1 h2{
+    text-align: center;
+    font-family: 'Raleway','Sans-Serif';
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase; 
+}
+.why1 p{
+    font-family: 'Raleway','Sans-Serif';
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+}
+.why-content1{}
+.why-content1 img, .why-content2 img, .why-content3 img, .why-content4 img{
+    margin-left: 80px;
+}
+.why-content1 h2, .why-content2 h2, .why-content3 h2, .why-content4 h2{
+    padding: 30px 0px;
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 33px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+.why-content1 p, .why-content2 p, .why-content3 p, .why-content4 p{
+    text-align: center;
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.why-content1 a, .why-content2 a, .why-content3 a, .why-content4 a{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 25px;
+    color: #43ff85; 
+}
+.why-content1 a:hover, .why-content2 a:hover, .why-content3 a:hover, .why-content4 a:hover{
+    color: #fff;
+}
+
+/*why we are best end*/
+/*vacation start*/
+#vacation{
+    background: #fff;
+    padding: 90px 0px;
+}
+.vacation-content h2{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 48px;
+    font-weight: 800;
+    color: #464646;
+    padding-bottom: 30px;
+
+}
+.vacation-content h2>span{
+    color: #3ee282;
+}
+.vacation-content p{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 14px;
+    color: #464646;
+    font-weight: 400;
+}
+.vacation-content h3{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-weight: 600;
+    font-size: 14px;
+    color: #43ff85;
+}
+.vacation-btn>button{
+    width: 105px; 
+    background: #005952;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+/*vacation end*/
+
+/*Happy Customer Start*/
+#customer{
+    background: #005952;
+    padding: 90px 0px;
+}
+.customer-heading{
+    padding-bottom: 40px;
+}
+.customer-heading h2{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-weight: 800;
+    font-size: 42px;
+    color: #fff;
+
+}
+.customer-heading span{
+    color: #3ee282;
+}
+.customer-heading p{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.customer-content{}
+.customer-content p{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.bg-progress{
+    background-color: #6dcff6;
+}
+.progress {
+    /*height: 10%;*/
+    margin-bottom: 10px;
+}
+.prog-text p{
+    font-family: 'Raleway','sans-serif';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+}
+.prog-text span{
+    float: right;
+}
+/*Happy Customer End*/
+
+/*Popular Start*/
+#popular{
+    background: #fff;
+    padding: 90px 0px;
+}
+.popular1{ 
+    margin-right: 100px;
+}
+.popular1 h2{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 42px;
+    font-weight: 800;
+    color: #464646;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.popular1 p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 18px;
+    color: #464646;
+    font-weight: 400;
+}
+.popular-content1{
+
+}
+
+.popular-content1-text{
+    background-color: #fafafa;
+    padding: 30px;
+}
+.popular-content1-text h2{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 18px;
+    color: #464646;
+    font-weight: 600;
+}
+.popular-content1-text h2>span{
+    font-size: 12px;
+    color: #3ee282;
+    font-weight: 400;
+}
+.popular-content1-text p{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 14px;
+    color: #464646;
+    font-weight: 400;
+    display: inline-block;
+}
+.popular-content1-text p>i{
+    color: #ffdf00;
+    font-size: 16px;
+}
+.popular-content1-text button{
+    width: 105px;
+    float: right;
+    background: #005952;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+/*Popular End*/
+
+/*Airlines Start*/
+#airlines{
+    background: #005952;
+    padding: 90px 0px;
+}
+/*Airlines End*/
+/*Footer Start*/
+#footer{
+    background: #fafafa;
+    padding-top: 90px;
+}
+.footer-bottom{
+    background: #2d5f5d;
+    padding: 10px 0px;
+}
+.footer-content1 img{
+    width: 100%;
+}
+.footer-content1 p{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 12px;
+    color: #464646;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.footer-content1 a{
+    text-decoration: none;
+    color: #43ff85;
+    font-family: 'Regular', 'Sans-Serif';
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-content1 a:hover{
+    color: #464646;
+}
+.footer-content2 h2, .footer-content3 h2, .footer-content4 h2{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 18px;
+    font-weight: 800;
+    color: #464646;
+    padding: 20px 0px;
+}
+.footer-content2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-content2 ul li{
+    padding-bottom: 5px;
+}
+.footer-content2 ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Raleway', 'Sans-Serif';
+    font-weight: 400;
+    color: #464646;
+    border-bottom: 1px dashed #cccccc;
+    transition: 0.5s; 
+
+}
+.footer-content2 ul li a:hover{
+    color: #cccccc;
+}
+.footer-content3 p{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 12px;
+    font-weight: 400;
+    color: #464646;
+    line-height: 20px;
+}
+.footer-content3 p span{
+    color: #6dcff6;
+}
+
+.p1, .p2{
+    font-size: 12px;
+    color: #aba6a6;
+    font-family: 'Raleway', 'Sans-Serif';
+    display: block;
+}
+.footer-content4 p{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 12px;
+    font-weight: 400;
+    color: #464646; 
+}
+.footer-content4 button{
+    margin-top: 10px;
+    width: 105px; 
+    background: #005952;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+copyright{
+     
+}
+.copyright a{
+    font-family: 'Raleway', 'Sans-Serif';
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+.copyright span{
+    color: #ffffff;
+}
+
+/*Footer End*/
